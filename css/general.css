@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-size: 100%;
+    background-color: maroon;
+}
+
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.nav-top li {
+    display: inline;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    padding: 1.5rem 5%;
+    color: tan;
+    font-size: 1.25rem;
+    font-family: Cinzel, serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+}
+
+.headline {
+    background-image: url(../images/kilcormac.svg);
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position:center center;
+    overflow: hidden;
+}
+
+.headline h2  {
+    font-family: Cinzel, serif;
+    font-weight: normal;
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin: 5% ;
+    text-align: center;
+    color: tan;
+    padding: 1rem 0 1%;
+}
+
+h2 a {
+    color: tan;
+}
+
+.logo {
+    width: 4rem;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.billboard {
+    margin: 0 0;
+    overflow: hidden;
+    background-image: url(/images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:  center;
+}
+
+h1 {
+    margin: 6rem 0;
+    font-family: Cinzel, serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(200, 150, 100, .8);
+    padding: .25rem 0;
+}
+img {
+	width: 100%;
+    display: block;
+}
+
+.billboard {
+    overflow: hidden; 
+    background-image: url(/images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    background-position: center center;
+}
+
+article {
+    background-color: tan;
+    padding: .5rem;
+    margin: 5% 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    overflow:  hidden;
+}
+
+.product figure img {
+    width: 50%;
+    margin: 1rem 20%;
+}
+
+.product figure {
+    float: left;
+    width: 45%; 
+    margin: 0 10% 1.5rem 0; 
+}
+
+.product figure:nth-child(even) {
+    margin: 0;     
+}
+
+.product figcaption {
+    background-color:  Maroon;
+    font-family: Cinzel, serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: tan;
+    text-align: center;
+    padding: 5%;
+}
+   
+
+footer {
+    background-color: black;
+    color: white;
+    padding: .25rem 10%;
+    word-spacing: 50px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
